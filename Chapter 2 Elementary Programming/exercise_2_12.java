@@ -20,17 +20,17 @@ public class exercise_2_12 {
         // Get the user input, because of course.
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter the speed in meters/second:\n");
-        long v = input.nextLong();
+        double v = input.nextDouble();
 
         System.out.print("Please enter the acceleration in meters/seconds^2:\n");
-        long a = input.nextLong();
+        double a = input.nextDouble();
 
         input.close();
 
         // Time to do the math...
         double n = Math.pow(v, 2);
         long numerator = (long) n;
-        long denominator = a * 2;
+        long denominator = (long) a * 2;
         long length = numerator / denominator;
 
         System.out.println("The minimum runway length is : " + length);

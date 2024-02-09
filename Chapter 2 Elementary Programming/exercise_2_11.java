@@ -31,7 +31,7 @@
         System.out.println("After five years, the population is now " + population);
     }
 
-    public static long addBirths(long pop, long birthrate) {about:blank#blocked
+    public static long addBirths(long pop, long birthrate) {
         pop = pop + birthrate;
         return pop;
     }
@@ -48,12 +48,13 @@
 }
  */
 
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class exercise_2_11 {
-    
+
     public static void main(String[] args) {
 
+        // Defining how parameters are calculated
         long population = 312_032_486;
         long day = 365;
         long hoursPerYear = day * 24;
@@ -63,15 +64,35 @@ public class exercise_2_11 {
         long deaths = secondsPerYear / 13;
         long immigrants = secondsPerYear / 45;
 
-        getYears();
-        calcPopulation();
+        // Gotta get that user input
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the number of years:\n");
+        long years = input.nextLong();
+        input.close();
+
+        for (int i = 0; i < years; i++) {
+            population = addBirths(population, births);
+            removeDeaths(population, deaths);
+            addImmigrants(population, immigrants);
+
+            System.out.println("Population after year #" + i + " is " + population);
+        }
+
+        System.out.println("After " + years + " years, the population is now " + population);
     }
 
-    public int getYears(){
-
+    public static long addBirths(long pop, long birthrate) {
+        pop = pop + birthrate;
+        return pop;
     }
 
-    public long calcPopulation(int years) {
-        years 
+    public static long removeDeaths(long pop, long deathrate) {
+        pop = pop - deathrate;
+        return pop;
+    }
+
+    public static long addImmigrants(long pop, long immigrants) {
+        pop = pop + immigrants;
+        return pop;
     }
 }

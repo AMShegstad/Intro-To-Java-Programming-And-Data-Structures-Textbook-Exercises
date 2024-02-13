@@ -21,12 +21,23 @@ public class exercise_2_21 {
 
         System.out.println("Enter the annual interest rate: ");
         double annualInterestRate = input.nextDouble();
+        // double monthlyInterestRate = annualInterestRate / 12;
+        double trueInterestRate = annualInterestRate / 100;
 
         System.out.println("Enter the number of years: ");
         double years = input.nextDouble();
 
         /*
-        *
-        */
+         * I did some research and found differing formulas on how to calculate this
+         * data. I also had to change the percentage from a % to a decimal form, which
+         * is the reason for the trueInterestRate variable. That solved my problems.
+         */
+
+        // double futureInvestmentValue = investmentAmount * (Math.pow((1 +
+        // monthlyInterestRate), years * 12));
+
+        double futureInvestmentValue = investmentAmount * (1 + (trueInterestRate * years));
+
+        System.out.println("You future investment value is: " + futureInvestmentValue);
     }
 }

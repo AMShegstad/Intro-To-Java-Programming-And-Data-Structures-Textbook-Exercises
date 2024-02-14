@@ -1,5 +1,5 @@
 /*
- * Addition Quiz
+ * AdditionQuiz.java
  */
 
 import java.util.Scanner;

@@ -37,6 +37,8 @@ public class exercise_3_3 {
         System.out.println("Enter the value for f: ");
         double f = input.nextDouble();
 
+        input.close();
+
         double x = ((e * d) / (b * f)) / ((a * d) / (b * c));
         double y = ((a * f) / (e * c)) / ((a * d) / (b * c));
 

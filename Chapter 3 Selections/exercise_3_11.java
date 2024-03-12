@@ -24,7 +24,9 @@ public class exercise_3_11 {
 
         input.close();
 
-        String month;
+        String month = null;
+
+        int days;
 
         if (choice == 1) {
             month = "January";
@@ -54,9 +56,20 @@ public class exercise_3_11 {
             month = "Error";
         }
 
-        // Checking for leap year
+        // Checking for Leap Year if choice is February
+        if (choice == 2) {
+            if (year % 100 == 0 && year % 400 == 0) {
+                days = 29;
+            } else {
+                days = 28;
+            }
+        } else if (choice == 1 || choice == 3 || choice == 5 || choice == 7 || choice == 8
+                || choice == 10 || choice == 12) {
+            days = 31;
+        } else {
+            days = 30;
+        }
 
-        // if (month == "february") {
-
+        System.out.println("The month of " + month + " in the year " + year + " has " + days + " days in it.");
     }
 }

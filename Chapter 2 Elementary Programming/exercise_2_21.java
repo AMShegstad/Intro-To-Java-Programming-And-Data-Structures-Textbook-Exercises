@@ -27,6 +27,8 @@ public class exercise_2_21 {
         System.out.println("Enter the number of years: ");
         double years = input.nextDouble();
 
+        input.close();
+
         /*
          * I did some research and found differing formulas on how to calculate this
          * data. I also had to change the percentage from a % to a decimal form, which

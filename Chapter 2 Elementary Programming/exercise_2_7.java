@@ -15,6 +15,7 @@ public class exercise_2_7 {
 
         System.out.println("Please enter a number of minutes.");
         long minutes = input.nextInt();
+        input.close();
 
         // long year = 365;
         long minutesPerYear = (((24 * 60) * 60) * 365);

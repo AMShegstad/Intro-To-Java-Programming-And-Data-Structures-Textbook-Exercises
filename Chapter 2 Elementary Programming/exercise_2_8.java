@@ -72,6 +72,7 @@ public class exercise_2_8 {
         // Prompting the user for input
         System.out.println("Enter the time zone offest to GMT");
         long adjustment = input.nextLong();
+        input.close();
 
         long adjustedHour = adjustForTimeZone(currentHour, adjustment);
 

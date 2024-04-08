@@ -30,6 +30,7 @@ public class exercise_2_10 {
         double m = input.nextDouble();
         double initialTemp = input.nextDouble();
         double finalTemp = input.nextDouble();
+        input.close();
 
         double q = m * (finalTemp - initialTemp) * 4184;
 

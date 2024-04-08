@@ -29,6 +29,7 @@ public class exercise_2_9 {
         velocity0 = input.nextDouble();
         velocity1 = input.nextDouble();
         time = input.nextDouble();
+        input.close();
 
         acceleration = (velocity1 - velocity0) / time;
 

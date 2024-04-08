@@ -29,6 +29,7 @@ public class exercise_2_17 {
 
         System.out.println("Enter the wind speed equal to or greater than 2:");
         double v = input.nextDouble();
+        input.close();
 
         double ve = Math.pow(v, 0.16);
 

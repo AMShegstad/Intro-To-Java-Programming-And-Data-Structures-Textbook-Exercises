@@ -19,6 +19,8 @@ public class exercise_2_4 {
         // Assigning the user's value to a variable
         double lbs = input.nextDouble();
 
+        input.close();
+
         // Converting LBS to Kilos
         double kilos = lbs * 0.454;
 

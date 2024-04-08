@@ -13,6 +13,7 @@ public class exercise_2_3 {
 
         System.out.println("Please enter the number in feet: ");
         double feet = input.nextDouble();
+        input.close();
 
         double meters = feet * 0.305;
 

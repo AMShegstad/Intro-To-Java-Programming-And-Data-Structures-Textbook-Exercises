@@ -20,6 +20,8 @@ public class exercise_2_14 {
         System.out.println("Please enter your height in inches:");
         double inches = input.nextDouble();
 
+        input.close();
+
         double kilos = pounds * 0.45359327;
         double meters = inches * 0.0254;
 

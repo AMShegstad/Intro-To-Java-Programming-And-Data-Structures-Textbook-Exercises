@@ -5,7 +5,7 @@ Working through all relevant exercises in the textbook "Introduction to Java Pro
 I didn't work through all of these tasks when I was studying the textbook in school, but I thought it'd be good practice to work through the entire collection of exercises.
 <br>
 
-The goal is to complete the entire textbook before I graduate in August 2024. Wish me luck!
+The goal is to complete the entire textbook before Summer of 2025. Wish me luck!
 <br>
 
 Chapter 1: Introduction to Computers, Programs, and Java<br>

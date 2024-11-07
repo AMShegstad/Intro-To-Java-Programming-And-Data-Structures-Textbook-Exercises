@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Chapter 2 Elementary Programming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 3 Selections" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 4 Mathematical Functions Characters and Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 5 Loops" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

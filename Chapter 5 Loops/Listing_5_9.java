@@ -18,9 +18,19 @@ public class Listing_5_9 {
         System.out.print("Enter the first integer: ");
         int n1 = input.nextInt();
 
-        System.out.print("Enter the second integer");
+        System.out.print("Enter the second integer: ");
         int n2 = input.nextInt();
 
-        
+        int gcd = 1; // Initial gcd is 1.
+        int k = 2; // Possible gcd.
+
+        for (k = 2; k <= n1 && k <= n2; k++) {
+            if (n1 % k == 0 && n2 % k == 0) {
+                gcd = k; // Update gcd
+            }
+        }
+
+        input.close();
+        System.out.println("The greatest common divisor for " + n1 + " and " + n2 + " is " + gcd);
     }
 }

@@ -8,6 +8,45 @@
       <sourceFolder url="file://$MODULE_DIR$/Chapter 3 Selections" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 4 Mathematical Functions Characters and Strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 5 Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 6 Methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 7 Single-Dimensional Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 8 Multidimensional Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 9 Objects and Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 10 Object-Oriented Thinking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 11 Inheritance and Polymorphism" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 12 Exception Handling and Text I/O" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 13 Abstract Classes and Interfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 14 JavaFX Basics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 15 Event-Driven Programming and Animations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 16 JavaFX UI Controls and Multimedia" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 17 Binary I/O" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 18 Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 19 Generics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 20 Lists, Stacks, Queues, and Priority Queues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 21 Sets and Maps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 22 Developing Effecient Algorithms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 23 Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 24 Implementing Lists, Stacks, Queues, and Priority Queues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 25 Binary Search Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 26 AVL Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 27 Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 28 Graphs and Applications" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 29 Weighted Graphs and Applications" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 30 Aggregate Operations for Collection Streams" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 31 Advanced JavaFX and FXML" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 32 Multithreading and Parallel Programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 33 Networking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 34 Java Database Programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 35 Advanced Java Database Programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 36 Internationalization" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 37 Servlets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 38 JavaServer Pages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 39 JavaServer Faces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 40 RMI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 41 Web Services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 42 2-4 Trees and B-Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 43 Red-Black Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 44 Testing Using jUnit" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

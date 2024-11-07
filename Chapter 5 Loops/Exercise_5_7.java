@@ -8,7 +8,21 @@ public class Exercise_5_7 {
 
     public static void main(String[] args) {
 
-        
+        double tuition = 10000;
+        float fullTuition = 0;
+
+        for (int i = 0; i < 10; i++) {
+             tuition = tuition + (tuition * 0.05);
+        }
+
+        System.out.printf("After ten years, the tuition cost is now $%.2f\n", tuition);
+
+        for (int j = 0; j < 5; j++) {
+            tuition = tuition + (tuition * 0.05);
+            fullTuition += tuition;
+        }
+
+        System.out.printf("Starting ten years from now, a 4 year education will cost in total $%.2f\n", fullTuition);
     }
     
 }

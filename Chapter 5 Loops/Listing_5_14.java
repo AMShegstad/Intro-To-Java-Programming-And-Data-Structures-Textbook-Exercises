@@ -22,6 +22,9 @@ public class Listing_5_14 {
         System.out.println("Enter a string: ");
         String s = input.nextLine();
 
+        // Convert string to lowercase for case-insensitive comparison
+        s = s.toLowerCase();
+
         // The index of the first character of the String.
         int low = 0;
 

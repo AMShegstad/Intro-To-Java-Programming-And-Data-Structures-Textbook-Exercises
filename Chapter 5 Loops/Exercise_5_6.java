@@ -22,6 +22,6 @@ public class Exercise_5_6 {
         for (int i = 1; i < 10; i++) {
             System.out.printf("%-8d %9.2f | %-8d %9.2f\n", i, (i * 1.609), numKm, (numKm / 1.609));
             numKm = numKm + 5;
-g        }
+       }
     }
 }

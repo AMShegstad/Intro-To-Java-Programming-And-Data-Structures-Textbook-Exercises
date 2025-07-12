@@ -12,7 +12,6 @@
 * */
 
 import java.util.Scanner;
-import java.math.*;
 
 public class Exercise_4_1 {
 
@@ -24,6 +23,7 @@ public class Exercise_4_1 {
         // Prompt the user to enter the length from the center of the pentagon to a vertex.
         System.out.print("Enter the length from the center of the pentagon to a vertex: ");
         double r = input.nextDouble();
+        input.close();
 
         /* Calculating the length of a side:
         * The length of a side can be found with the following formula:

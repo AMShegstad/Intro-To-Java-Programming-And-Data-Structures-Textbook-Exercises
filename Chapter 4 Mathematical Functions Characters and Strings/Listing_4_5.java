@@ -16,6 +16,7 @@ public class Listing_4_5 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your lottery pick (two digits): ");
         String guess = input.nextLine();
+        input.close();
 
         // Get digits from lottery
         char lotteryDigit1 = lottery.charAt(0);

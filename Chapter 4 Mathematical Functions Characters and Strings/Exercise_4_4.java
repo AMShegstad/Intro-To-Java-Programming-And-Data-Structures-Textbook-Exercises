@@ -7,7 +7,6 @@ Write a program that prompts the user to enter the side of a hexagon and display
  */
 
 import java.util.Scanner;
-import java.math.*;
 
 public class Exercise_4_4 {
 
@@ -19,6 +18,7 @@ public class Exercise_4_4 {
         // Prompt the user for input.
         System.out.print("Please enter the length of a single side of the hexagon:");
         double s = input.nextDouble();
+        input.close();
 
         // Calculate the area.
         double hexagonArea = (6 * Math.pow(s, 2)) / (4 * Math.tan(Math.PI/6));

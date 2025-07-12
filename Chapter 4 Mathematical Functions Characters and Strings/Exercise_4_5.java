@@ -10,7 +10,6 @@ a regular polygon and displays its area.
  */
 
 import java.util.Scanner;
-import java.math.*;
 
 public class Exercise_4_5 {
 
@@ -25,7 +24,7 @@ public class Exercise_4_5 {
 
         System.out.println("How long is are the sides?");
         double s = input.nextDouble();
-
+        input.close();
         // Math time!
         double area = (n * Math.pow(s, 2) / (4 * Math.tan(Math.PI / n)));
 

@@ -22,6 +22,7 @@ public class Listing_4_4 {
             System.out.println("You must enter exactly one character.");
             System.exit(1);
         }
+        input.close();
 
         // Display decimal value for the hex digit.
         char ch = Character.toUpperCase(hexString.charAt(0));

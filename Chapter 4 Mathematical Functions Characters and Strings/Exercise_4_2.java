@@ -12,7 +12,6 @@
 * */
 
 import java.util.Scanner;
-import java.math.*;
 
 public class Exercise_4_2 {
 
@@ -30,6 +29,8 @@ public class Exercise_4_2 {
         System.out.println("Please enter the longitude and latitude of the second point.");
         double x2degrees = input.nextDouble();
         double y2degrees = input.nextDouble();
+
+        input.close();
 
         // Convert degrees to radians.
         double x1radians = Math.toRadians(x1degrees);

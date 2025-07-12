@@ -31,5 +31,6 @@ public class Listing_5_2 {
                 System.out.println("Your guess is too low.");
             }
         }
+        input.close();
     }
 }

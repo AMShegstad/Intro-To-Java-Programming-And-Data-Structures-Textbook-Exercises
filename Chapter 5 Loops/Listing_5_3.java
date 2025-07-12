@@ -27,8 +27,9 @@ public class Listing_5_3 {
             } else {
                 System.out.println("Your guess is too low.");
             } // End of loop
-
         }
+
+        input.close();
 
     }
 }

@@ -24,5 +24,6 @@ public class Listing_5_1 {
         }
 
         System.out.println("You got it!");
+        input.close();
     }
 }

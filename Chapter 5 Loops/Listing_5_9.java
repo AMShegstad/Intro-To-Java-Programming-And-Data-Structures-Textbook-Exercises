@@ -20,6 +20,7 @@ public class Listing_5_9 {
 
         System.out.print("Enter the second integer: ");
         int n2 = input.nextInt();
+        input.close();
 
         int gcd = 1; // Initial gcd is 1.
         int k = 2; // Possible gcd.
@@ -30,7 +31,6 @@ public class Listing_5_9 {
             }
         }
 
-        input.close();
         System.out.println("The greatest common divisor for " + n1 + " and " + n2 + " is " + gcd);
     }
 }

@@ -18,7 +18,7 @@ public class Listing_5_11 {
         // Prompt the user to enter a decimal integer.
         System.out.print("Enter a decimal number: ");
         int decimal = input.nextInt();
-
+        input.close();
         // Convert decimal into hex
         String hex = "";
 

@@ -21,6 +21,7 @@ public class Listing_5_14 {
         // Prompt the user to enter a String
         System.out.println("Enter a string: ");
         String s = input.nextLine();
+        input.close();
 
         // Convert string to lowercase for case-insensitive comparison
         s = s.toLowerCase();

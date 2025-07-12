@@ -29,6 +29,7 @@ public class Listing_5_5 {
             System.out.println("Enter an integer (The input ends if it is 0) : ");
             data = input.nextInt();
         }
+        input.close();
 
         System.out.println("The sum is " + sum);
     }

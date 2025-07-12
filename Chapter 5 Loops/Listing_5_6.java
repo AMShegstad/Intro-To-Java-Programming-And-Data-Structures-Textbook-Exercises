@@ -27,6 +27,8 @@ public class Listing_5_6 {
             sum += data;
         } while (data != 0);
 
+        input.close();
+
         System.out.println("The sum is " + sum);
     }
 }

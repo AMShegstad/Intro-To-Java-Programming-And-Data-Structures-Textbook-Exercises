@@ -26,6 +26,8 @@ public class Exercise_5_8 {
             score[i] = input.nextDouble();
         }
 
+        input.close();
+
         for (int j = 1; j < numStudents ; j++) {
             if (score[0] < score[j]) {
                 double temp = score[0];

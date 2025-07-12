@@ -72,6 +72,7 @@ public class Exercise_5_2 {
         long startTime = System.currentTimeMillis();
         String output = " "; // output String is initially empty.
         Scanner input = new Scanner(System.in); // Creating the Scanner object
+        input.close();
 
         // It's loop time!
         while (count < NUMBER_OF_QUESTIONS) {

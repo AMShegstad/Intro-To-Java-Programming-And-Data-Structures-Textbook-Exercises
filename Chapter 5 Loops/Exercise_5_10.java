@@ -10,10 +10,10 @@ public class Exercise_5_10 {
     
     public static void main(String[] args) {
 
-        final int ITEMS_PER_LINE = 10;
+        // final int ITEMS_PER_LINE = 10;
         int number = 100; // numbers to test as divisor
         int arraySize = 0;
-        int index = 0;
+        // int index = 0;
 
         for (int j = 100; j <= 1000; j++){
             if (j % 5 != 0 && j % 6 != 0) {
@@ -46,16 +46,5 @@ public class Exercise_5_10 {
         System.out.println(divisors[6]);
         System.out.println(divisors[7]);
         System.out.println(divisors[8]);
-
-        /*
-        for (int k = 0; k < divisors.length; k++) {
-            if (k % ITEMS_PER_LINE == 0) {
-                System.out.println(divisors[k]);
-            } else {
-                System.out.print(divisors[k] + " ");
-            }
-        }
-
-         */
     }
 }

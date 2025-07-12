@@ -22,6 +22,8 @@ public class Exercise_5_9 {
          var4[var5] = var1.nextDouble();
       }
 
+      var1.close();
+
       double var6;
       for(var5 = 1; var5 < var2; ++var5) {
          if (var4[0] < var4[var5]) {

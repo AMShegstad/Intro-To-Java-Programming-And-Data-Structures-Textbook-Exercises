@@ -12,6 +12,7 @@ public class Listing_3_7 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enterv a year: ");
         int year = input.nextInt();
+        input.close();
 
         // Check if the year is a leap year.
         boolean isLeapYear = (year % 4 == 0 && year % 100 != 0 || (year % 400 == 0));

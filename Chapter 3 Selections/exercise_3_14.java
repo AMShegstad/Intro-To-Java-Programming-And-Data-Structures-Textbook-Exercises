@@ -23,6 +23,7 @@ public class exercise_3_14 {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter 1 for 'Heads' or 0 for 'Tails'.");
         int guess = input.nextInt();
+        input.close();
 
         if (flip == 1) {
             side = "Heads";

@@ -74,7 +74,7 @@ public class exercise_2_8 {
         long adjustment = input.nextLong();
         input.close();
 
-        long adjustedHour = adjustForTimeZone(currentHour, adjustment);
+        //long adjustedHour = adjustForTimeZone(currentHour, adjustment);
 
         // display results
         System.out.println(
